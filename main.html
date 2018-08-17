@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>学习记录网站</title>
+<style>
+	#d1{
+		padding:10px;
+		border:2px;
+		border-radius:25px;
+		background-color:#CC0066;
+		width:150px;
+		color:white;
+		position:relative;
+		font-size:20px;
+		animation:headMove 5s;
+	}
+	@keyframes headMove{
+		0%   {background:#CC0066; left:0px; top:0px;transform:rotate(30deg);}
+		25%  {background:yellow; left:400px; top:0px;transform:rotate(180deg);}
+		50%  {background:#6666FF; left:800px; top:0px;}
+		75%  {background:#9999CC; left:400px; top:0px;transform:rotate(360deg);}
+		100% {background:#CC0066; left:0px; top:0px;}
+	}
+	@-webkit-keyframes headMove{
+		0%   {background:green; left:0px; top:0px;}
+		25%  {background:yellow; left:100px; top:0px;}
+		50%  {background:blue; left:200px; top:0px;}
+		75%  {background:green; left:100px; top:0px;}
+		100% {background:CC0066; left:0px; top:0px;}
+	}
+</style>
+</head>
+<body>
+	<div id="d1">unxi网络编程学习记录</div>
+</body>
+</html>
